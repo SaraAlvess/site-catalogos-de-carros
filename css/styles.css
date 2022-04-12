@@ -17,7 +17,8 @@
 
 }
 
-html, body {
+html, 
+body {
 
     width: 100%;
     overflow-x: hidden; 
@@ -130,7 +131,7 @@ nav ul button:hover {
     
 }
 
-.header-block .text p{
+.header-block .text p {
     max-width: 280px;
     color: white;
     text-align: right;
@@ -208,3 +209,11 @@ section .card-item {
     justify-content: space-around;
 }
 
+.card-content {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
